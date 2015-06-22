@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54FCA263D637F6CD9725FDB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2431940A6D81BDDFB4386 /* libPods.a */; };
+		B14D1FEE1B2E8D86001DCAEA /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FE51B2E8D86001DCAEA /* Alamofire.swift */; };
+		B14D1FEF1B2E8D86001DCAEA /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FE61B2E8D86001DCAEA /* Download.swift */; };
+		B14D1FF01B2E8D86001DCAEA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B14D1FE71B2E8D86001DCAEA /* Info.plist */; };
+		B14D1FF11B2E8D86001DCAEA /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FE81B2E8D86001DCAEA /* Manager.swift */; };
+		B14D1FF21B2E8D86001DCAEA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FE91B2E8D86001DCAEA /* ParameterEncoding.swift */; };
+		B14D1FF31B2E8D86001DCAEA /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FEA1B2E8D86001DCAEA /* Request.swift */; };
+		B14D1FF41B2E8D86001DCAEA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FEB1B2E8D86001DCAEA /* ResponseSerialization.swift */; };
+		B14D1FF51B2E8D86001DCAEA /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FEC1B2E8D86001DCAEA /* Upload.swift */; };
+		B14D1FF61B2E8D86001DCAEA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FED1B2E8D86001DCAEA /* Validation.swift */; };
+		B14D1FFB1B2E8F02001DCAEA /* PhunWareSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FFA1B2E8F02001DCAEA /* PhunWareSchedule.swift */; };
+		B14D1FFD1B2E9046001DCAEA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D1FFC1B2E9046001DCAEA /* SwiftyJSON.swift */; };
+		B14D20011B2E96B5001DCAEA /* PhunWareFlapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D20001B2E96B5001DCAEA /* PhunWareFlapi.swift */; };
+		B14D20031B2E98CD001DCAEA /* PhunWareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D20021B2E98CD001DCAEA /* PhunWareManager.swift */; };
+		B14D20051B2E9937001DCAEA /* PhunWareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D20041B2E9937001DCAEA /* PhunWareService.swift */; };
+		B158C62B1B239ABF008AEED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C62A1B239ABF008AEED3 /* main.m */; };
+		B158C62E1B239ABF008AEED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C62D1B239ABF008AEED3 /* AppDelegate.m */; };
+		B158C6311B239ABF008AEED3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C6301B239ABF008AEED3 /* ViewController.m */; };
+		B158C6341B239ABF008AEED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B158C6321B239ABF008AEED3 /* Main.storyboard */; };
+		B158C6361B239ABF008AEED3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B158C6351B239ABF008AEED3 /* Images.xcassets */; };
+		B158C6391B239ABF008AEED3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B158C6371B239ABF008AEED3 /* LaunchScreen.xib */; };
+		B158C6451B239ABF008AEED3 /* PhunwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B158C6441B239ABF008AEED3 /* PhunwareTests.m */; };
+		B179A6351B35234D008AF196 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179A6341B35234D008AF196 /* Extensions.swift */; };
+		B1BF95521B35B4BE00CD403F /* PhunwareResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF95511B35B4BE00CD403F /* PhunwareResult.swift */; };
+		B1BF95561B35C53000CD403F /* PhunwareSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BF95551B35C53000CD403F /* PhunwareSegue.m */; };
+		B1BF95591B35C6F900CD403F /* PhunWareDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BF95581B35C6F900CD403F /* PhunWareDetailViewController.m */; };
+		B1BF95601B35FCFD00CD403F /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1BF955F1B35FCFD00CD403F /* placeholder.jpg */; };
+		B1BF956B1B36452E00CD403F /* PhunwareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BF956A1B36452E00CD403F /* PhunwareCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B158C63F1B239ABF008AEED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B158C61D1B239ABF008AEED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B158C6241B239ABF008AEED3;
+			remoteInfo = Phunware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B438BFF0BDA8C0427A526C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		85D2431940A6D81BDDFB4386 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		982D37CAD4EEEF0B71A2FAFC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B14D1FE41B2E8D86001DCAEA /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alamofire.h; path = ThirdPartyLibs/Alamofire.h; sourceTree = "<group>"; };
+		B14D1FE51B2E8D86001DCAEA /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = ThirdPartyLibs/Alamofire.swift; sourceTree = "<group>"; };
+		B14D1FE61B2E8D86001DCAEA /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = ThirdPartyLibs/Download.swift; sourceTree = "<group>"; };
+		B14D1FE71B2E8D86001DCAEA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ThirdPartyLibs/Info.plist; sourceTree = "<group>"; };
+		B14D1FE81B2E8D86001DCAEA /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = ThirdPartyLibs/Manager.swift; sourceTree = "<group>"; };
+		B14D1FE91B2E8D86001DCAEA /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = ThirdPartyLibs/ParameterEncoding.swift; sourceTree = "<group>"; };
+		B14D1FEA1B2E8D86001DCAEA /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ThirdPartyLibs/Request.swift; sourceTree = "<group>"; };
+		B14D1FEB1B2E8D86001DCAEA /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = ThirdPartyLibs/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B14D1FEC1B2E8D86001DCAEA /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = ThirdPartyLibs/Upload.swift; sourceTree = "<group>"; };
+		B14D1FED1B2E8D86001DCAEA /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = ThirdPartyLibs/Validation.swift; sourceTree = "<group>"; };
+		B14D1FFA1B2E8F02001DCAEA /* PhunWareSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhunWareSchedule.swift; path = Model/PhunWareSchedule.swift; sourceTree = "<group>"; };
+		B14D1FFC1B2E9046001DCAEA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ThirdPartyLibs/SwiftyJSON.swift; sourceTree = "<group>"; };
+		B14D20001B2E96B5001DCAEA /* PhunWareFlapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhunWareFlapi.swift; path = Model/PhunWareFlapi.swift; sourceTree = "<group>"; };
+		B14D20021B2E98CD001DCAEA /* PhunWareManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhunWareManager.swift; path = Services/PhunWareManager.swift; sourceTree = "<group>"; };
+		B14D20041B2E9937001DCAEA /* PhunWareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhunWareService.swift; path = Services/Manager/PhunWareService.swift; sourceTree = "<group>"; };
+		B158C6251B239ABF008AEED3 /* Phunware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phunware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B158C6291B239ABF008AEED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B158C62A1B239ABF008AEED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B158C62C1B239ABF008AEED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B158C62D1B239ABF008AEED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B158C62F1B239ABF008AEED3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B158C6301B239ABF008AEED3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B158C6331B239ABF008AEED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B158C6351B239ABF008AEED3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B158C6381B239ABF008AEED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B158C63E1B239ABF008AEED3 /* PhunwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B158C6431B239ABF008AEED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B158C6441B239ABF008AEED3 /* PhunwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunwareTests.m; sourceTree = "<group>"; };
+		B179A6341B35234D008AF196 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Categories/Extensions.swift; sourceTree = "<group>"; };
+		B1BF95501B35B12B00CD403F /* Phunware-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Phunware-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B1BF95511B35B4BE00CD403F /* PhunwareResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhunwareResult.swift; path = Model/PhunwareResult.swift; sourceTree = "<group>"; };
+		B1BF95541B35C53000CD403F /* PhunwareSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhunwareSegue.h; path = Views/PhunwareSegue.h; sourceTree = "<group>"; };
+		B1BF95551B35C53000CD403F /* PhunwareSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhunwareSegue.m; path = Views/PhunwareSegue.m; sourceTree = "<group>"; };
+		B1BF95571B35C6F900CD403F /* PhunWareDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhunWareDetailViewController.h; path = Views/PhunWareDetailViewController.h; sourceTree = "<group>"; };
+		B1BF95581B35C6F900CD403F /* PhunWareDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhunWareDetailViewController.m; path = Views/PhunWareDetailViewController.m; sourceTree = "<group>"; };
+		B1BF955B1B35F5A800CD403F /* Phunware-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Phunware-Prefix.pch"; path = "../PreFixHeader/Phunware-Prefix.pch"; sourceTree = "<group>"; };
+		B1BF955F1B35FCFD00CD403F /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = placeholder.jpg; path = Images/placeholder.jpg; sourceTree = "<group>"; };
+		B1BF95691B36452E00CD403F /* PhunwareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhunwareCell.h; path = Views/TableViewCells/PhunwareCell.h; sourceTree = "<group>"; };
+		B1BF956A1B36452E00CD403F /* PhunwareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhunwareCell.m; path = Views/TableViewCells/PhunwareCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B158C6221B239ABF008AEED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FCA263D637F6CD9725FDB9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B158C63B1B239ABF008AEED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D11896DF268EBF032D904C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85D2431940A6D81BDDFB4386 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71CB24A5DCE5E80E39337DAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58B438BFF0BDA8C0427A526C /* Pods.debug.xcconfig */,
+				982D37CAD4EEEF0B71A2FAFC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B14D1FE31B2E8D38001DCAEA /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				B14D1FFC1B2E9046001DCAEA /* SwiftyJSON.swift */,
+				B14D1FE41B2E8D86001DCAEA /* Alamofire.h */,
+				B14D1FE51B2E8D86001DCAEA /* Alamofire.swift */,
+				B14D1FE61B2E8D86001DCAEA /* Download.swift */,
+				B14D1FE71B2E8D86001DCAEA /* Info.plist */,
+				B14D1FE81B2E8D86001DCAEA /* Manager.swift */,
+				B14D1FE91B2E8D86001DCAEA /* ParameterEncoding.swift */,
+				B14D1FEA1B2E8D86001DCAEA /* Request.swift */,
+				B14D1FEB1B2E8D86001DCAEA /* ResponseSerialization.swift */,
+				B14D1FEC1B2E8D86001DCAEA /* Upload.swift */,
+				B14D1FED1B2E8D86001DCAEA /* Validation.swift */,
+			);
+			name = Alamofire;
+			sourceTree = "<group>";
+		};
+		B14D1FF71B2E8E5B001DCAEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF95511B35B4BE00CD403F /* PhunwareResult.swift */,
+				B14D1FFA1B2E8F02001DCAEA /* PhunWareSchedule.swift */,
+				B14D20001B2E96B5001DCAEA /* PhunWareFlapi.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B14D1FF81B2E8E65001DCAEA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B14D20021B2E98CD001DCAEA /* PhunWareManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B14D1FF91B2E8E6F001DCAEA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B14D20041B2E9937001DCAEA /* PhunWareService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		B158C61C1B239ABF008AEED3 = {
+			isa = PBXGroup;
+			children = (
+				B179A6331B3522FF008AF196 /* Categories */,
+				B14D1FF91B2E8E6F001DCAEA /* Service */,
+				B14D1FF81B2E8E65001DCAEA /* Manager */,
+				B14D1FF71B2E8E5B001DCAEA /* Model */,
+				B158C6271B239ABF008AEED3 /* Phunware */,
+				B158C6411B239ABF008AEED3 /* PhunwareTests */,
+				B158C6261B239ABF008AEED3 /* Products */,
+				B14D1FE31B2E8D38001DCAEA /* Alamofire */,
+				71CB24A5DCE5E80E39337DAA /* Pods */,
+				30D11896DF268EBF032D904C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B158C6261B239ABF008AEED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B158C6251B239ABF008AEED3 /* Phunware.app */,
+				B158C63E1B239ABF008AEED3 /* PhunwareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B158C6271B239ABF008AEED3 /* Phunware */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF95611B3640F600CD403F /* TableViewCell */,
+				B1BF95531B35C4FB00CD403F /* Segues */,
+				B179A6391B352E60008AF196 /* Views */,
+				B158C62C1B239ABF008AEED3 /* AppDelegate.h */,
+				B158C62D1B239ABF008AEED3 /* AppDelegate.m */,
+				B158C62F1B239ABF008AEED3 /* ViewController.h */,
+				B158C6301B239ABF008AEED3 /* ViewController.m */,
+				B158C6321B239ABF008AEED3 /* Main.storyboard */,
+				B158C6351B239ABF008AEED3 /* Images.xcassets */,
+				B158C6371B239ABF008AEED3 /* LaunchScreen.xib */,
+				B1BF955C1B35FA1100CD403F /* Images */,
+				B158C6281B239ABF008AEED3 /* Supporting Files */,
+			);
+			path = Phunware;
+			sourceTree = "<group>";
+		};
+		B158C6281B239ABF008AEED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF955B1B35F5A800CD403F /* Phunware-Prefix.pch */,
+				B1BF95501B35B12B00CD403F /* Phunware-Bridging-Header.h */,
+				B158C6291B239ABF008AEED3 /* Info.plist */,
+				B158C62A1B239ABF008AEED3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B158C6411B239ABF008AEED3 /* PhunwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				B158C6441B239ABF008AEED3 /* PhunwareTests.m */,
+				B158C6421B239ABF008AEED3 /* Supporting Files */,
+			);
+			path = PhunwareTests;
+			sourceTree = "<group>";
+		};
+		B158C6421B239ABF008AEED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B158C6431B239ABF008AEED3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B179A6331B3522FF008AF196 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B179A6341B35234D008AF196 /* Extensions.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B179A6391B352E60008AF196 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF95571B35C6F900CD403F /* PhunWareDetailViewController.h */,
+				B1BF95581B35C6F900CD403F /* PhunWareDetailViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B1BF95531B35C4FB00CD403F /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF95541B35C53000CD403F /* PhunwareSegue.h */,
+				B1BF95551B35C53000CD403F /* PhunwareSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		B1BF955C1B35FA1100CD403F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF955F1B35FCFD00CD403F /* placeholder.jpg */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B1BF95611B3640F600CD403F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF95691B36452E00CD403F /* PhunwareCell.h */,
+				B1BF956A1B36452E00CD403F /* PhunwareCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B158C6241B239ABF008AEED3 /* Phunware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B158C6481B239ABF008AEED3 /* Build configuration list for PBXNativeTarget "Phunware" */;
+			buildPhases = (
+				725F69E4B9D8C5F6F24C58D7 /* Check Pods Manifest.lock */,
+				B158C6211B239ABF008AEED3 /* Sources */,
+				B158C6221B239ABF008AEED3 /* Frameworks */,
+				B158C6231B239ABF008AEED3 /* Resources */,
+				DDF36EB6E8C96F5321389A0F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phunware;
+			productName = Phunware;
+			productReference = B158C6251B239ABF008AEED3 /* Phunware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B158C63D1B239ABF008AEED3 /* PhunwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B158C64B1B239ABF008AEED3 /* Build configuration list for PBXNativeTarget "PhunwareTests" */;
+			buildPhases = (
+				B158C63A1B239ABF008AEED3 /* Sources */,
+				B158C63B1B239ABF008AEED3 /* Frameworks */,
+				B158C63C1B239ABF008AEED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B158C6401B239ABF008AEED3 /* PBXTargetDependency */,
+			);
+			name = PhunwareTests;
+			productName = PhunwareTests;
+			productReference = B158C63E1B239ABF008AEED3 /* PhunwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B158C61D1B239ABF008AEED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jeyanthan Periyasamy";
+				TargetAttributes = {
+					B158C6241B239ABF008AEED3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B158C63D1B239ABF008AEED3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B158C6241B239ABF008AEED3;
+					};
+				};
+			};
+			buildConfigurationList = B158C6201B239ABF008AEED3 /* Build configuration list for PBXProject "Phunware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B158C61C1B239ABF008AEED3;
+			productRefGroup = B158C6261B239ABF008AEED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B158C6241B239ABF008AEED3 /* Phunware */,
+				B158C63D1B239ABF008AEED3 /* PhunwareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B158C6231B239ABF008AEED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D1FF01B2E8D86001DCAEA /* Info.plist in Resources */,
+				B158C6341B239ABF008AEED3 /* Main.storyboard in Resources */,
+				B158C6391B239ABF008AEED3 /* LaunchScreen.xib in Resources */,
+				B1BF95601B35FCFD00CD403F /* placeholder.jpg in Resources */,
+				B158C6361B239ABF008AEED3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B158C63C1B239ABF008AEED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		725F69E4B9D8C5F6F24C58D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF36EB6E8C96F5321389A0F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B158C6211B239ABF008AEED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D1FF21B2E8D86001DCAEA /* ParameterEncoding.swift in Sources */,
+				B14D1FF31B2E8D86001DCAEA /* Request.swift in Sources */,
+				B14D1FF61B2E8D86001DCAEA /* Validation.swift in Sources */,
+				B1BF95561B35C53000CD403F /* PhunwareSegue.m in Sources */,
+				B1BF956B1B36452E00CD403F /* PhunwareCell.m in Sources */,
+				B158C6311B239ABF008AEED3 /* ViewController.m in Sources */,
+				B1BF95591B35C6F900CD403F /* PhunWareDetailViewController.m in Sources */,
+				B14D1FF11B2E8D86001DCAEA /* Manager.swift in Sources */,
+				B14D1FF41B2E8D86001DCAEA /* ResponseSerialization.swift in Sources */,
+				B158C62E1B239ABF008AEED3 /* AppDelegate.m in Sources */,
+				B14D1FF51B2E8D86001DCAEA /* Upload.swift in Sources */,
+				B14D20051B2E9937001DCAEA /* PhunWareService.swift in Sources */,
+				B14D1FEE1B2E8D86001DCAEA /* Alamofire.swift in Sources */,
+				B14D1FFB1B2E8F02001DCAEA /* PhunWareSchedule.swift in Sources */,
+				B158C62B1B239ABF008AEED3 /* main.m in Sources */,
+				B14D20031B2E98CD001DCAEA /* PhunWareManager.swift in Sources */,
+				B14D1FFD1B2E9046001DCAEA /* SwiftyJSON.swift in Sources */,
+				B179A6351B35234D008AF196 /* Extensions.swift in Sources */,
+				B14D1FEF1B2E8D86001DCAEA /* Download.swift in Sources */,
+				B1BF95521B35B4BE00CD403F /* PhunwareResult.swift in Sources */,
+				B14D20011B2E96B5001DCAEA /* PhunWareFlapi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B158C63A1B239ABF008AEED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B158C6451B239ABF008AEED3 /* PhunwareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B158C6401B239ABF008AEED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B158C6241B239ABF008AEED3 /* Phunware */;
+			targetProxy = B158C63F1B239ABF008AEED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B158C6321B239ABF008AEED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B158C6331B239ABF008AEED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B158C6371B239ABF008AEED3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B158C6381B239ABF008AEED3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B158C6461B239ABF008AEED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PreFixHeader/Phunware-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B158C6471B239ABF008AEED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PreFixHeader/Phunware-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B158C6491B239ABF008AEED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B438BFF0BDA8C0427A526C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PreFixHeader/Phunware-Prefix.pch";
+				INFOPLIST_FILE = Phunware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Phunware-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B158C64A1B239ABF008AEED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982D37CAD4EEEF0B71A2FAFC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PreFixHeader/Phunware-Prefix.pch";
+				INFOPLIST_FILE = Phunware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Phunware-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B158C64C1B239ABF008AEED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhunwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phunware.app/Phunware";
+			};
+			name = Debug;
+		};
+		B158C64D1B239ABF008AEED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = PhunwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phunware.app/Phunware";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B158C6201B239ABF008AEED3 /* Build configuration list for PBXProject "Phunware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158C6461B239ABF008AEED3 /* Debug */,
+				B158C6471B239ABF008AEED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B158C6481B239ABF008AEED3 /* Build configuration list for PBXNativeTarget "Phunware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158C6491B239ABF008AEED3 /* Debug */,
+				B158C64A1B239ABF008AEED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B158C64B1B239ABF008AEED3 /* Build configuration list for PBXNativeTarget "PhunwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B158C64C1B239ABF008AEED3 /* Debug */,
+				B158C64D1B239ABF008AEED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B158C61D1B239ABF008AEED3 /* Project object */;
+}
