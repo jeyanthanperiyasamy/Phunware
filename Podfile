@@ -1,5 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
-workspace 'Overstock.xcworkspace'
+
 platform :ios, '7.0'
 
 pod "Reachability",'3.2'
